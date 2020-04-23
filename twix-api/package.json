@@ -1,0 +1,31 @@
+{
+  "name": "twix-api",
+  "version": "1.0.0",
+  "description": "twix website api",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "nodemon dist/main.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "twix",
+    "api"
+  ],
+  "author": "Mateus Sarmento",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.4",
+    "@types/express": "^4.16.1",
+    "@types/jsonwebtoken": "^8.3.2",
+    "@types/mongoose": "^5.3.26",
+    "mocha": "^6.1.3"
+  }
+}
